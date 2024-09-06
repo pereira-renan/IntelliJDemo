@@ -1,10 +1,10 @@
 package org.example.services
 
-import org.example.utils.UuidGenerater
+import org.example.utils.UuidGenerator
 
 class UserService {
 
     static UUID getId(){
-        return UuidGenerater.generate()
+        return UuidGenerator.generate()
     }
 }

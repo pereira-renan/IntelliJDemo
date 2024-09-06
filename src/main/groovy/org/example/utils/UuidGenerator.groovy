@@ -1,6 +1,6 @@
 package org.example.utils
 
-class UuidGenerater {
+class UuidGenerator {
     static UUID generate(){
         return UUID.randomUUID()
     }
